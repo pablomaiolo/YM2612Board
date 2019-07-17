@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Placa_YM2612)(type KiCad)(uri ${KIPRJMOD}/Placa_YM2612.pretty)(options "")(descr ""))
+)
