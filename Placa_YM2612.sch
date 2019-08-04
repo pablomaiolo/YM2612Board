@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Placa_YM2612-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -983,15 +983,15 @@ Wire Wire Line
 	10050 2100 10400 2100
 Wire Wire Line
 	10050 2200 10400 2200
-Text Label 5250 2150 0    50   ~ 0
-YM_LEFT
 Text Label 5700 2200 3    50   ~ 0
+YM_LEFT
+Text Label 5700 2150 2    50   ~ 0
 YM_RIGHT
 Text Label 7150 2850 0    50   ~ 0
 PSG_OUT
-Text Label 10050 2100 0    50   ~ 0
-AUDIO_L
 Text Label 10050 2200 0    50   ~ 0
+AUDIO_L
+Text Label 10050 2100 0    50   ~ 0
 AUDIO_R
 $Comp
 L 74xx:74LS74 U2
@@ -1080,12 +1080,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9250 2950 50  0001 C CNN
 	1    9250 2950
 	1    0    0    1   
 $EndComp
-Wire Bus Line
-	3100 2750 3100 4700
-Wire Bus Line
-	5500 2750 5500 4700
-Wire Bus Line
-	2450 3050 2450 4700
 $Comp
 L Amplifier_Operational:LM358 U4
 U 3 1 5D390B5C
@@ -1098,4 +1092,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9750 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9650 3650
+Wire Bus Line
+	3100 2750 3100 4700
+Wire Bus Line
+	5500 2750 5500 4700
+Wire Bus Line
+	2450 3050 2450 4700
 $EndSCHEMATC
