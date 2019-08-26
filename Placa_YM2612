@@ -1,6 +1,6 @@
 "Source:","/home/pablo/Proyectos KiCad/Placa_YM2612/Placa_YM2612.sch"
-"Date:","Sat 20 Jul 2019 23:33:24 -03"
-"Tool:","Eeschema 5.1.2+dfsg1-1"
+"Date:","Mon 19 Aug 2019 16:31:21 -03"
+"Tool:","Eeschema 5.1.3+dfsg1-2"
 "Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
 "Component Count:","25"
 
@@ -30,7 +30,7 @@
 "","","U1","YM2612","ym2612:YM2612","Package_DIP:DIP-24_W15.24mm_Socket_LongPads",""
 "","","U2","74LS74","74xx:74LS74","Package_DIP:DIP-14_W7.62mm_LongPads","74xx/74hc_hct74.pdf"
 "","","U3","SN76489","sn76489:SN76489","Package_DIP:DIP-16_W7.62mm_Socket_LongPads",""
-"","","U4","TL072","Amplifier_Operational:TL072","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/tl071.pdf"
+"","","U4","LM358","Amplifier_Operational:LM358","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
 "","","X1","8 MHz","Oscillator:CXO_DIP14","Oscillator:Oscillator_DIP-14","http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf"
 
 
@@ -49,5 +49,5 @@
 "9","1","U1","YM2612","ym2612:YM2612","Package_DIP:DIP-24_W15.24mm_Socket_LongPads",""
 "10","1","U2","74LS74","74xx:74LS74","Package_DIP:DIP-14_W7.62mm_LongPads","74xx/74hc_hct74.pdf"
 "11","1","U3","SN76489","sn76489:SN76489","Package_DIP:DIP-16_W7.62mm_Socket_LongPads",""
-"12","1","U4","TL072","Amplifier_Operational:TL072","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/tl071.pdf"
+"12","1","U4","LM358","Amplifier_Operational:LM358","Package_DIP:DIP-8_W7.62mm_LongPads","http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
 "13","1","X1","8 MHz","Oscillator:CXO_DIP14","Oscillator:Oscillator_DIP-14","http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf"
